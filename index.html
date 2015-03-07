@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>Title Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/bower_components/weather-icons-master/css/weather-icons.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="/styles/demo.css" />
+		<link rel="stylesheet" type="text/css" href="/styles/icons.css" />
+		<link rel="stylesheet" type="text/css" href="/styles/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="st-container" class="container st-container">
+		<nav class="st-menu st-effect-1" id="menu-1">
+			<h2 class="icon icon-cloud"><a href="/">Weather</a></h2>
+			<ul>
+				<li><a class="icon icon-data" href="#">Data Management</a></li>
+				<li><a class="icon icon-location" href="/city/mumbai">Mumbai</a></li>
+				<li><a class="icon icon-study" href="/city/london">London</a></li>
+				<li><a class="icon icon-photo" href="#" >Collections</a></li>
+				<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				<li><a class="icon icon-settings" href="#">Settings</a></li>
+			</ul>
+		</nav>
+
+			<div id="content" class="st-contdent">
+
+				<div id="header" class="">
+					<div id="menu-icon" class="col-xs-1">
+					<div id="st-trigger-effects">
+						<a data-effect="st-effect-1" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></a>
+					</div>
+					</div>
+					<div class="col-xs-9 offset-1 text-center"><h4>San Francisco, CA</h4></div>
+					<div id="menu-icon-search" class="col-xs-1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+				</div>
+					
+				<div id="current-weather" class="col-xs-12 text-center top-buffer-40">
+					<div id="current-weather-icon">
+						<i class="wi wi-day-lightning"></i>
+					</div>
+					<div id="current-weather-temp">
+						<h1>14<sup>o</sup>C</h1>
+					</div>
+				</div>
+				<div style="clear:both"></div>
+				<div id="secondary-weather" class="top-buffer-30 text-center">
+					<div id="rain" class="col-xs-4 col-xs-offset-2">
+						<i class="wi wi-day-lightning"></i> 30%
+					</div>
+					<div id="wind" class="col-xs-5 text-left">
+						<i class="wi wi-day-lightning"></i> 8 km/h
+					</div>
+				</div>
+				<div style="clear:both"></div>
+				<div id="weather-five-day" class="col-xs-12 text-center">
+					<div class="days col-xs-2 right-border" id="mon">
+						<div><p>MON</p></div>
+						<div><i class="wi wi-day-lightning"></i></div>
+						<div class="min-max-temp"><span>11<sup>o</sup>C</span>&nbsp;&nbsp;<span>11<sup>o</sup>C</span></div>
+					</div>
+					<div class="days col-xs-2 right-border" id="tue">
+						<div><p>TUE</p></div>
+						<div><i class="wi wi-day-lightning"></i></div>
+						<div class="min-max-temp"><span>11<sup>o</sup>C</span>&nbsp;&nbsp;<span>11<sup>o</sup>C</span></div>
+					</div>
+					<div class="days col-xs-2 right-border" id="wed">
+						<div><p>WED</p></div>
+						<div><i class="wi wi-day-lightning"></i></div>
+						<div class="min-max-temp"><span>11<sup>o</sup>C</span>&nbsp;&nbsp;<span>11<sup>o</sup>C</span></div>
+					</div>
+					<div class="days col-xs-2 right-border" id="thr">
+						<div><p>THR</p></div>
+						<div><i class="wi wi-day-lightning"></i></div>
+						<div class="min-max-temp"><span>11<sup>o</sup>C</span>&nbsp;&nbsp;<span>11<sup>o</sup>C</span></div>
+					</div>
+					<div class="days col-xs-2" id="fri">
+						<div><p>FRI</p></div>
+						<div><i class="wi wi-day-lightning"></i></div>
+						<div class="min-max-temp"><span>11<sup>o</sup>C</span>&nbsp;&nbsp;<span>11<sup>o</sup>C</span></div>
+					</div>
+				</div>
+			
+			</div> <!-- content -->
+			
+		</div> <!-- Container -->
+
+		<!-- jQuery -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/sidebarEffects.js"></script>
+	</body>
+</html>
